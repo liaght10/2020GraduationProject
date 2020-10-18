@@ -60,9 +60,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
-    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\script\CameraController.cs" />
+    <Compile Include="Assets\script\dataInfo.cs" />
+    <Compile Include="Assets\script\dataManage.cs" />
+    <Compile Include="Assets\script\gameExit.cs" />
+    <Compile Include="Assets\script\itemClick.cs" />
+    <Compile Include="Assets\script\itemInfo.cs" />
+    <Compile Include="Assets\script\pageActive.cs" />
+    <Compile Include="Assets\script\Player.cs" />
+    <Compile Include="Assets\script\seaDamage.cs" />
+    <Compile Include="Assets\script\setUpFalse.cs" />
+    <Compile Include="Assets\script\soundManager.cs" />
     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
