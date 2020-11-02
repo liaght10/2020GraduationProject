@@ -32,7 +32,6 @@ public class seaDamage : MonoBehaviour
     {
         if (other.gameObject.tag=="sea" && HPSlider.value > 0)
         {
-            Debug.Log("Stay");
             isSea = true;
             Player.isGround = false;
             HPSlider.value -= .00003f; // n값으로 설정 후 레벨에 따라 닳는 데미지가 다르게  // 아예 스크립트를 하나 만들어서 계산식 클래스 만들기
@@ -49,7 +48,6 @@ public class seaDamage : MonoBehaviour
     {
        
         {
-            Debug.Log("I'm in the block!");
             isSea = false;
         }
     }
@@ -59,7 +57,7 @@ public class seaDamage : MonoBehaviour
     {
         if (collision.gameObject.tag == "island")
         {
-            HPSlider.value += .00016f;
+            HPSlider.value += .00036f;
         }
     }
 

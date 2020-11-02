@@ -65,15 +65,22 @@
     <Compile Include="Assets\script\dataInfo.cs" />
     <Compile Include="Assets\script\dataManage.cs" />
     <Compile Include="Assets\script\gameExit.cs" />
+    <Compile Include="Assets\script\InventoryManager.cs" />
     <Compile Include="Assets\script\itemClick.cs" />
     <Compile Include="Assets\script\itemInfo.cs" />
     <Compile Include="Assets\script\pageActive.cs" />
     <Compile Include="Assets\script\Player.cs" />
     <Compile Include="Assets\script\seaDamage.cs" />
     <Compile Include="Assets\script\setUpFalse.cs" />
+    <Compile Include="Assets\script\slot.cs" />
     <Compile Include="Assets\script\soundManager.cs" />
     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+    <None Include="Assets\crystal\TranslucentCrystals\Readme.txt" />
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+    <None Include="Assets\crystal\TranslucentCrystals\_SRP\!!!_ReadBeforeImport_!!!.txt" />
+    <None Include="Assets\Basic Metal Texture Pack\readme.txt" />
+    <None Include="Assets\crystal\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
+    <None Include="Assets\crystal\TranslucentCrystals\Resources\Shaders\Crystal.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Admin/Desktop/The last of Jeorny/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

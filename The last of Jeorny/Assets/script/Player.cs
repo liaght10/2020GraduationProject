@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     private float h = 0.0f;
     private float v = 0.0f;
     private float r = 0.0f;
+    private float ry = 0.0f;
+    private float rz = 0.0f;
+    private float viewRange = 90.0f;
 
     [SerializeField]
     private Transform tr;
@@ -40,10 +43,10 @@ public class Player : MonoBehaviour
         v = Input.GetAxis("Vertical");
         r = Input.GetAxis("Mouse X");
 
+        
         Vector3 moveDir = (Vector3.forward * v) + (Vector3.right * h);
 
-        tr.Translate(moveDir.normalized * moveSpeed * Time.deltaTime, Space.Self);
-
+        tr.Translate(moveDir.normalized * moveSpeed * Time.deltaTime);
         tr.Rotate(Vector3.up * rotSpeed * Time.deltaTime * r);
 
         if (isGround == true)
@@ -61,12 +64,6 @@ public class Player : MonoBehaviour
                 GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
 
             }
-        }
-        
-
-        if (HSlider.value == 0.5)
-        {
-            //HP가 절만 미만입니다 text true
         }
 
     }

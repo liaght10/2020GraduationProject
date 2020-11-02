@@ -11,6 +11,10 @@ TagManager:
   - stage1Ground
   - ocean
   - Ground
+  - dayBackground
+  - downBackground
+  - twilightBackground
+  - nightBackground
   layers:
   - Default
   - TransparentFX
